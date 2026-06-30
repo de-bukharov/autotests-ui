@@ -37,7 +37,7 @@ with sync_playwright() as playwright:
 
     courses_title=page.get_by_test_id("courses-list-toolbar-title-text")
     expect(courses_title).to_have_text("Courses")
-
+            
     courses_empty_icon = page.get_by_test_id("courses-list-empty-view-icon")
     expect(courses_empty_icon).to_be_visible()
 
