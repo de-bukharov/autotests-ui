@@ -43,9 +43,10 @@ class CreateCoursePage(BasePage):
 
 
 
-    def check_visible_create_course_tile(self):
-        expect(self.create_course_title_input).to_be_visible()
-        expect(self.create_course_title_input).to_have_text("Create Course")
+    def check_visible_create_course_title(self):
+        expect(self.create_course_title).to_be_visible()
+        expect(self.create_course_title).to_have_text('Create course')
+
 
     def click_create_course_button(self):
         self.create_course_button.click()
