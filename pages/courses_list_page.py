@@ -20,16 +20,6 @@ class CoursesListPage(BasePage):
         self.toolbar_view = CoursesListToolbarViewComponent(page)
 
 
-
-
-    def check_visible_empty_view(self):
-
-        self.empty_view.check_visible(
-            title='There is no results',
-            description='There are no results from the load test pipeline will be displayed here'
-        )
-
-
     
 
 
