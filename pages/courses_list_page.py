@@ -20,6 +20,4 @@ class CoursesListPage(BasePage):
         self.toolbar_view = CoursesListToolbarViewComponent(page)
 
 
-    
-
 
